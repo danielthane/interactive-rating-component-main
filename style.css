@@ -26,9 +26,13 @@ button {
   border: none;
 }
 
+h1 {
+  margin-bottom: 1rem;
+}
+
 /* Utility classes */
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 /* Main section Styling */
@@ -59,15 +63,14 @@ button {
   height: 40px;
   width: 40px;
 }
-.number-btn:hover,
-.number-btn:focus {
+.number-btn:hover {
   background-color: hsl(217, 12%, 63%);
   color: white;
 }
 
-.number-btn:active,
-.number-btn:visited {
+.button-clicked {
   background-color: hsl(25, 97%, 53%);
+  color: white;
 }
 
 .star {
@@ -91,4 +94,22 @@ button {
 .submit:focus {
   color: hsl(25, 97%, 53%);
   background-color: white;
+}
+
+/* Thank-you Styling */
+.thankyou {
+  text-align: center;
+}
+
+.thankyou-img {
+  margin-bottom: 1rem;
+}
+
+.feedback {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.3rem 1rem;
 }

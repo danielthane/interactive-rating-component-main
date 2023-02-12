@@ -38,11 +38,11 @@
         </p>
 
         <div class="button-cluster">
-          <button class="number-btn">1</button>
-          <button class="number-btn">2</button>
-          <button class="number-btn">3</button>
-          <button class="number-btn">4</button>
-          <button class="number-btn">5</button>
+          <button class="number-btn" id="button-1">1</button>
+          <button class="number-btn" id="button-2">2</button>
+          <button class="number-btn" id="button-3">3</button>
+          <button class="number-btn" id="button-4">4</button>
+          <button class="number-btn" id="button-5">5</button>
         </div>
 
         <button class="submit">SUBMIT</button>
@@ -52,8 +52,13 @@
 
       <!-- Thank you state start -->
       <article class="card thankyou hidden">
+        <img
+          src="images/illustration-thank-you.svg"
+          alt="thankyou image"
+          class="thankyou-img"
+        />
         <p class="feedback">
-          You selected <span class="selected--score">0</span> out of 5
+          You selected <span class="selected-score">0</span> out of 5
         </p>
 
         <h1>Thank you!</h1>
@@ -72,5 +77,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
